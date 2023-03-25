@@ -1,0 +1,25 @@
+.content{
+    width:500px;
+    height:500px;
+    margin:0 auto;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-250px;
+    margin-top:-250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content > p{
+    margin: 0px;
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
