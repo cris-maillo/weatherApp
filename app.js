@@ -1,7 +1,7 @@
 
 async function getData(city){
 
-    const apiKey = "";
+    const apiKey = "b55d634c4bf74d49bb0215431232503";
     const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}&aqi=yes`;
 
     try {
