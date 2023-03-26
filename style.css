@@ -14,12 +14,35 @@
     flex-direction: column;
 }
 
-.content > p{
-    margin: 0px;
+p{
+    margin: 5px;
 }
 
 form{
     display: flex;
     gap: 10px;
     flex-direction: column;
+}
+
+.resultContainer{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 5px;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.resultContainer > *{
+    text-align: right;
+}
+
+#feel-temp, #humidity, #temp, #condition{
+    text-align: left;
+}
+
+.resultContainer :first-child{
+    text-align: center;
+    grid-column: 1 / span 2;
 }

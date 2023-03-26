@@ -1,3 +1,4 @@
+
 async function getData(city){
 
     const apiKey = "";
